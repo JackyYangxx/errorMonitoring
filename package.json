@@ -1,0 +1,36 @@
+{
+  "name": "errormonitoring",
+  "version": "1.0.0",
+  "description": "I need to capture  error in my microfrontend project",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackyYangxx/errorMonitoring.git"
+  },
+  "keywords": [
+    "typescript",
+    "errorMonitoring"
+  ],
+  "author": "Jackyyangxxx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JackyYangxx/errorMonitoring/issues"
+  },
+  "homepage": "https://github.com/JackyYangxx/errorMonitoring#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.15.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  }
+}
